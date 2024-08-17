@@ -1,11 +1,16 @@
-import Header from "./component/Header/Header"
+import Header from "./component/Header/Header";
+import SectionOne from "./views/SectionOne/SectionOne";
+import SectionTwo from "./views/SectionTwo/SectionTwo";
 
 function App() {
- 
 
   return (
-    <div className="container mx-auto">
-      <Header/>
+    <div className="">
+      <Header />
+      <div>
+        <SectionOne />
+        <SectionTwo/>
+      </div>
     </div>
   )
 }

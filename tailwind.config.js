@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'kaushan': ["Kaushan Script", 'sans-serif'],
+    }
   },
   plugins: [],
 }
