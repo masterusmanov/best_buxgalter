@@ -6,7 +6,7 @@ import './Header.css'
 export default function Header() {
     return (
       <div className="container mx-auto flex items-center justify-between">
-        <img src={bestlogo} alt="" className="w-[200px]" />
+        <img src={bestlogo} alt="" className="w-[250px]" />
         <div className="flex items-center gap-6">
           <div className="flex items-center gap-10 font-bold text-[16px] mr-14">
             <a href="">Bosh sahifa</a>

@@ -8,12 +8,14 @@ import line from "../../assets/SectionTwo/line.svg";
 
 export default function SectionTwo() {
     return (
-      <div className="container mx-auto my-[50px]">
-        <div className='my-[50px]'>
-          <h1 className="text-center text-[#073843] font-[700] text-[56px]">Xizmatlar</h1>
-          <img src={line} alt="line" className='mx-[720px] h-[15px]'/>
+      <div className="container mx-auto my-[50px] ">
+        <div className="my-[70px]">
+          <h1 className="text-center text-[#073843] font-[700] text-[56px]">
+            Xizmatlar
+          </h1>
+          <img src={line} alt="line" className="mx-[720px] h-[15px]" />
         </div>
-        <div className="flex justify-beetwen gap-[20px]">
+        <div className="flex justify-beetwen gap-[20px] text-[#073843]">
           <div className=" w-1/3 border-4 border-gray-300 p-5 hover:border-gray-400 rounded-2xl hover:shadow-lg">
             <div className="flex gap-10 items-center">
               <img src={service} alt="service" className="w-[60px] mt-4" />
@@ -46,7 +48,7 @@ export default function SectionTwo() {
           </div>
           <div className=" w-1/3 border-4 border-gray-300 p-5 hover:border-gray-400 rounded-2xl hover:shadow-lg">
             <div className="flex gap-10 items-center">
-              <img src={recovery} alt="service" className="w-[80px] mt-4" />
+              <img src={recovery} alt="service" className="w-[60px] mt-4" />
               <h1 className="font-[700] text-[28px]">
                 Buxgalteriya hisobini tiklash
               </h1>
@@ -70,7 +72,7 @@ export default function SectionTwo() {
           </div>
           <div className=" w-1/3 border-4 border-gray-300 p-5 hover:border-gray-400 rounded-2xl hover:shadow-lg">
             <div className="flex gap-10 items-center">
-              <img src={audit} alt="service" className="w-[80px] mt-4" />
+              <img src={audit} alt="service" className="w-[60px] mt-4" />
               <h1 className="font-[700] text-[28px]">
                 Buxgalteriya hujjatlarini audit qilish
               </h1>
@@ -92,10 +94,10 @@ export default function SectionTwo() {
             </div>
           </div>
         </div>
-        <div className="flex justify-beetwen gap-[20px] mt-[20px]">
+        <div className="flex justify-beetwen gap-[20px] mt-[20px] text-[#073843]">
           <div className=" w-1/3 border-4 border-gray-300 p-5 hover:border-gray-400 rounded-2xl hover:shadow-lg">
             <div className="flex gap-10 items-center">
-              <img src={financ} alt="service" className="w-[80px] mt-4" />
+              <img src={financ} alt="service" className="w-[60px] mt-4" />
               <h1 className="font-[700] text-[26px]">
                 Moliyaviy, soliq va statistik hisobotlarni tuzish
               </h1>
@@ -117,7 +119,7 @@ export default function SectionTwo() {
           </div>
           <div className=" w-1/3 border-4 border-gray-300 p-5 hover:border-gray-400 rounded-2xl hover:shadow-lg">
             <div className="flex gap-10 items-center">
-              <img src={policy} alt="service" className="w-[80px] mt-4" />
+              <img src={policy} alt="service" className="w-[60px] mt-4" />
               <h1 className="font-[700] text-[28px]">
                 Hisob siyosatini tuzish
               </h1>
@@ -140,7 +142,7 @@ export default function SectionTwo() {
           </div>
           <div className=" w-1/3 border-4 border-gray-300 p-5 hover:border-gray-400 rounded-2xl hover:shadow-lg">
             <div className="flex gap-10 items-center">
-              <img src={business} alt="service" className="w-[80px] mt-4" />
+              <img src={business} alt="service" className="w-[60px] mt-4" />
               <h1 className="font-[700] text-[26px]">
                 Biznesni ro`yhatdan o`tkazish
               </h1>

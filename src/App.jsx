@@ -1,5 +1,6 @@
 import Header from "./component/Header/Header";
 import SectionOne from "./views/SectionOne/SectionOne";
+import SectionThree from "./views/SectionThree/SectionThree";
 import SectionTwo from "./views/SectionTwo/SectionTwo";
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       <Header />
       <div>
         <SectionOne />
-        <SectionTwo/>
+        <SectionTwo />
+        <SectionThree/>
       </div>
     </div>
   )
