@@ -16,7 +16,9 @@ export default function SectionOne() {
               Xisob siyosati va Biznes-reja tuzish <br />
               Boshqaruv xisobini tashkil etish
             </h1>
-            <button className="text-[18px] bg-[#073843] text-white py-2 px-4 w-[200px] rounded-lg hover:bg-[#2f3b3d]">Bog`lanish</button>
+            <button className="text-[18px] bg-[#073843] text-white py-2 px-4 w-[200px] rounded-lg hover:bg-[#2f3b3d]">
+              Bog`lanish
+            </button>
           </div>
         </div>
       </div>
