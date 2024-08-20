@@ -6,11 +6,11 @@ export default function Footer() {
             <h1>BESTBUXGALTER.UZ</h1>
           </div>
           <div className="w-1/3">
-            <div className="flex items-center gap-4 float-right">
+            <div className="flex items-center justify-end gap-4">
               <i className="bx bx-phone"></i>
               <h1>+998999098015</h1>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex items-center justify-end gap-4">
               <i className="bx bxl-telegram text-blue-500"></i>
               <a href="https://t.me/best_buxgalter">@best_buxgalter</a>
             </div>
