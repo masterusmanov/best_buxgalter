@@ -5,6 +5,9 @@ import SectionTwo from "./views/SectionTwo/SectionTwo";
 import SectionFour from "./views/SectionFour/SectionFour";
 import SectionFive from "./views/SectionFive/SectionFive";
 import SectionSex from "./views/SectionSex/SectionSex";
+import SectionSeven from "./views/SectionSeven/SectionSeven";
+import SectionEight from "./views/SectionEight/SectionEight";
+import Footer from "./component/Footer/Footer";
 
 function App() {
 
@@ -23,8 +26,11 @@ function App() {
         <SectionThree />
         <SectionFour />
         <SectionFive />
-        <SectionSex/>
+        <SectionSex />
+        <SectionSeven />
+        <SectionEight/>
       </div>
+      <Footer/>
     </div>
   );
 }
