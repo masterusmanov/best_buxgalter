@@ -9,6 +9,9 @@ import Basaltkom from "../../assets/Partner/Basaltkom.png";
 import masshtab from "../../assets/Partner/masshtab.png";
 import modern from "../../assets/Partner/modern.png";
 import medical from "../../assets/Partner/medical.png";
+import tuyxona from "../../assets/Partner/tuyxona.png";
+import sinfxona from "../../assets/Partner/sinfxona.png";
+import zulxumor from "../../assets/Partner/zulxumor.png";
 
 const images = [
   Hischool,
@@ -21,6 +24,9 @@ const images = [
   Basaltkom,
   masshtab,
   modern,
+  tuyxona,
+  sinfxona,
+  zulxumor,
   // Duplicate images to create the seamless scroll effect
   Hischool,
   medical,
@@ -32,6 +38,9 @@ const images = [
   Basaltkom,
   masshtab,
   modern,
+  tuyxona,
+  sinfxona,
+  zulxumor,
 ];
 
 const Partner = () => {
