@@ -7,7 +7,7 @@
 
 .gallery {
     display: flex;
-    animation: scroll 50s linear infinite;
+    animation: scroll 25s linear infinite;
     gap: 20px;
     width: max-content;
 }
