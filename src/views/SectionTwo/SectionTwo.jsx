@@ -12,7 +12,7 @@ export default function SectionTwo() {
       title: "Barcha turdagi buxgalteriya xizmatlari",
       desc: "Yuqori malakali hodimlar jamoasi, Buxgalteriya bo`limi bilan bog`liq bo`lgan kadrlar bilan bog`liq muammolar sizni bezovta qilmaydi, Buxgalteriya hisobi va hisobotingiz o`z vaqtida sifatli bo`ladi, Biz o`z kasbiy faoliyatimiz davomida qonunchilikdagi yangiliklardan xabardor bo`lib boramiz va sizning faoliyatingizga aloqador qismi bo`yicha zarur tavsiyalar berib boramiz.",
       icon: service,
-      link: '/all_services'
+      link: '/all_service'
     },
     {
       title: "Buxgalteriya hisobini tiklash",

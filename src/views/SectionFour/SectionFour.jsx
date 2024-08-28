@@ -3,7 +3,7 @@ import team from "../../assets/SectionThree/team.jpeg";
 
 export default function SectionFour() {
   return (
-    <div className="">
+    <div id="about" className="">
       <div className="container mx-auto md:flex justify-between gap-6 items-center xl:px-2">
         <div className="md:hidden py-[50px] ">
           <h1 className="text-center text-[#073843] font-[700] text-[50px]">

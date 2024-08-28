@@ -28,7 +28,7 @@ const Menu = () => {
               <a href="#services">Xizmatlar</a>
             </li>
             <li>
-              <a href="#contact">Yangiliklar</a>
+              <a href="#paket">Ta`riflar</a>
             </li>
           </ul>
         </nav>

@@ -24,7 +24,7 @@ export default function SectionThree() {
     },
   ];
   return (
-    <div className="bg-[#073843]">
+    <div id="paket" className="bg-[#073843]">
       <div className="container mx-auto my-[50px]">
         <div className="pt-[70px]">
           <h1 className="text-center text-[#F0EAD6] font-[700] text-[56px]">
