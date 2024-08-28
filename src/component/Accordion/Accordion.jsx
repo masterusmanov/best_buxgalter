@@ -4,10 +4,10 @@ const AccordionItem = ({ title, content, isOpen, onClick }) => (
   <div>
     <div
       onClick={onClick}
-      className="flex items-center justify-between text-[#F0EAD6] border-4 rounded-xl border-[#F0EAD6] cursor-pointer bg-[#073843] p-4"
+      className="flex items-center justify-between gap-6 text-[#F0EAD6] border-4 rounded-xl border-[#F0EAD6] cursor-pointer bg-[#073843] p-4"
     >
       {title}
-      <p>+</p>
+      <p>▼</p>
     </div>
     {isOpen && <div className="p-4 bg-gray-100 text-justify">{content}</div>}
   </div>
@@ -62,7 +62,7 @@ const App = () => {
   ];
 
   return (
-    <div className="w-1/2 mx-auto text-[24px]">
+    <div className=" mx-auto text-[16px] md:text-[20px] xl:w-[70%]">
       <Accordion items={accordionItems} className="" />
     </div>
   );
