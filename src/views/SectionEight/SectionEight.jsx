@@ -1,26 +1,44 @@
 import React, { useState } from "react";
+import axios from "axios";
 import operator from "../../assets/operators/operator.png";
 
 export default function SectionEight() {
     const [formData, setFormData] = useState({
       name: "",
       phone: "",
-      password: "",
     });
 
-     const handleChange = (e) => {
-       const { name, value } = e.target;
-       setFormData((prevData) => ({
-         ...prevData,
-         [name]: value,
-       }));
-     };
+    const handleChange = (e) => {
+      setFormData({
+        ...formData,
+        [e.target.name]: e.target.value,
+      });
+    };
 
-     const handleSubmit = (e) => {
-       e.preventDefault();
-       // Handle form submission logic here
-       console.log("Form data submitted:", formData);
-     };
+    const handleSubmit = (e) => {
+      e.preventDefault();
+
+      // Telegram bot API ma'lumotlari
+      const telegramBotToken = "YOUR_TELEGRAM_BOT_TOKEN";
+      const chatId = "YOUR_CHAT_ID"; // Bot bilan suhbat ID ni oling
+      const telegramApiUrl = `https://api.telegram.org/bot${telegramBotToken}/sendMessage`;
+
+      // Yuboriladigan xabar matni
+      const message = `Yangi ariza:\n\nIsm: ${formData.name}\nTelefon: ${formData.phone}`;
+
+      // Telegramga ma'lumotni yuborish
+      axios
+        .post(telegramApiUrl, {
+          chat_id: chatId,
+          text: message,
+        })
+        .then((response) => {
+          console.log("Ma'lumot jo'natildi:", response.data);
+        })
+        .catch((error) => {
+          console.error("Xatolik yuz berdi:", error);
+        });
+    };
   return (
     <div className="bg-[#073843] p-5 lg:p-10">
       <div className="container mx-auto">
