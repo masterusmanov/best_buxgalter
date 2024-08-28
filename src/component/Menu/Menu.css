@@ -1,0 +1,53 @@
+.fixed-menu {
+    position: fixed;
+        top: 120px !important;
+        /* Ekranning yuqori qismidan 100px masofada joylashadi */
+        right: 10px;
+        /* Ekranning o'ng qismidan masofa */
+        z-index: 1000;
+        /* Boshqa elementlardan yuqoriroqda turishi uchun */
+        background-color: #D35E25;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+}
+
+.menu {
+    background-color: #D35E25;
+    position: fixed;
+    top: 165px !important;
+    /* Tugmadan keyin chiqadi */
+    right: 10px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 10px 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.fixed-menu {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background-color: #D35E25;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

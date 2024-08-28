@@ -8,7 +8,7 @@ import line from "../../assets/SectionTwo/line.svg";
 
 export default function SectionTwo() {
     return (
-      <div className="container mx-auto my-[50px] ">
+      <div id="services" className="container mx-auto my-[50px] ">
         <div className="my-[70px]">
           <h1 className="text-center text-[#073843] font-[700] text-[56px]">
             Xizmatlar

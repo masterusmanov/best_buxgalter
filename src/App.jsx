@@ -12,7 +12,7 @@ import Footer from "./component/Footer/Footer";
 function App() {
 
   return (
-    <div className="">
+    <div id="#home" className="">
       <marquee direction="" className="text-red-600 font-[700] text-[16px]">
         Muhim yangilik! Xizmatimizdan mamnun bo’lsangiz do’stlaringizga tavsiya
         eting. Har qanday tarifdagi mijozimiz tavsiyasi orqali kelgan yangi
